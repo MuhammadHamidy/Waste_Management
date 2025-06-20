@@ -3,7 +3,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "[my-framework] build --output public",
+        "build": "[npm run production] build --output public",
         "dev": "vite"
         
     },
